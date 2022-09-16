@@ -1,0 +1,502 @@
+:root {
+  --pink: #ff4081;
+}
+
+#nav {
+  background-color: #1e1d1d;
+}
+#container {
+  margin-left: none;
+  margin-right: none;
+  margin: 0%;
+  width: 100%;
+  height: 100px;
+}
+
+#nav ul {
+  list-style: none;
+  overflow: hidden;
+  float: left;
+}
+
+#nav li {
+  float: left;
+}
+
+#nav li a {
+  display: inline-block;
+  color: white;
+  text-align: left;
+  padding: 20px 20px;
+  text-decoration: none;
+  font-size: 30px;
+  font-family: Raleway-ExtraBold_2;
+}
+
+#yuvarlak {
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+  object-fit: cover;
+  float: left;
+}
+
+#nav li a:hover {
+  color: orangered;
+}
+
+#text {
+  display: inline-block;
+  color: red;
+  text-align: left;
+  padding: 10px 10px;
+  text-decoration: none;
+
+  font-family: Raleway-ExtraBold_2;
+  background-image: url("image/Ateş.jpg");
+  background-size: cover;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.hero-image {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: #333;
+  background-color: #cccccc;
+  height: 1000px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  object-fit: contain;
+  width: 100%;
+  filter: contrast(1);
+}
+
+.hero-image video {
+  min-width: 100%;
+  min-height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  object-fit: cover;
+  z-index: 5;
+}
+.hero-image::after {
+  content: "";
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(255, 255, 255, 0.65);
+  position: absolute;
+}
+
+body {
+  background-image: url("image/arka.jfif");
+  background-repeat: no-repeat;
+  background-color: #cccccc;
+  height: 20rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-image:hover {
+  filter: contrast(1);
+}
+
+.card-deck {
+  display: flex;
+  flex-wrap: wrap;
+  float: left;
+  width: 500px;
+  margin-bottom: 80px;
+  margin-top: 80px;
+  margin-right: 50px;
+  height: 500px;
+  display: flex;
+}
+
+.flex-container {
+  margin-bottom: 100;
+  padding: 0;
+  margin-top: 100;
+  list-style: none;
+
+  -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+}
+
+.wrap {
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.wrap li {
+  width: 500px;
+  height: 600x;
+  background: transparent;
+}
+
+.wrap-reverse {
+  -webkit-flex-wrap: wrap-reverse;
+  flex-wrap: wrap-reverse;
+}
+
+.flex-item {
+  justify-content: center;
+  padding-right: 100px;
+  width: 200px;
+  height: 700px;
+  margin: 10px;
+  line-height: 100px;
+  color: white;
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
+}
+
+#Ali:hover {
+  transform: translateX(-50%);
+  transition: transform 1s;
+}
+
+.container8 {
+  height: 200px;
+  width: max-content;
+}
+h1 {
+  position: absolute;
+  top: 150px;
+  left: 70px;
+}
+#navbar {
+  width: 100vmax;
+  background-color: none;
+  font-weight: bold;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+li a {
+  text-decoration: none;
+  color: red;
+  padding-right: 3em;
+  position: relative;
+  transition: all ease-in-out 250ms;
+}
+
+li a::after {
+  content: "";
+  position: absolute;
+  display: block;
+  height: 0.4em;
+  width: 0%;
+  background-color: red;
+  transition: all ease-in-out 250ms;
+}
+
+li a:hover::after {
+  width: 100;
+}
+li a:hover {
+  color: red;
+}
+
+#image {
+  background-image: url("image/indir.png");
+  background-repeat: no-repeat;
+  background-color: #cccccc;
+  height: 100½;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+#main {
+  height: 600px;
+  float: left;
+  width: 70%;
+  margin-left: 300px;
+  margin-right: 100px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.card {
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
+.container7 {
+  height: 400px;
+  margin-top: 100px;
+  width: 1040px;
+  background-color: wheat;
+  width: 100%;
+}
+
+#container1 {
+  margin-left: none;
+  margin-right: none;
+  margin: 0%;
+  width: 100%;
+  height: 100px;
+}
+
+#body {
+  background-repeat: no-repeat;
+  background-color: white;
+  height: 20rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+#first {
+  margin-top: 300px;
+  float: left;
+}
+#second {
+  margin-top: 300px;
+  background: white;
+  float: left;
+}
+
+.box {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  width: 900px;
+  height: 500px;
+  margin: 2px;
+  justify-content: start;
+}
+
+#container1 {
+  display: flex;
+  flex: initial;
+  flex-wrap: wrap;
+  float: left;
+  margin-left: none;
+  margin-right: none;
+  margin: 0%;
+  width: 100%;
+  height: 100px;
+  justify-content: start;
+}
+
+#text1 {
+  margin-top: 300px;
+  margin-left: 500px;
+}
+
+#text2 {
+  margin-top: 500px;
+  margin-left: 60rem;
+  display: inline-block;
+  color: red;
+  text-align: left;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-size: 80px;
+  font-family: Raleway-ExtraBold_2;
+  background-image: url("image/Ateş.jpg");
+  background-size: cover;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+#button {
+  margin-top: 700px;
+}
+
+#button1 {
+  color: black;
+  margin-top: 700px;
+  margin-left: 20px;
+}
+
+#button1:hover {
+  color: red;
+  margin-top: 700px;
+  margin-left: 20px;
+}
+
+#button:hover {
+  color: black;
+  margin-top: 700px;
+  margin-left: 20px;
+}
+
+.container2 {
+  margin-top: 200px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+/* force scrollbar, not necessary, but may reduce gaps. Setting a max-height on .carousel also works */
+html {
+  overflow-y: scroll;
+}
+
+.carousel {
+  height: 600px;
+  background: white;
+  margin-top: 300px;
+}
+
+.img1 {
+  transition: 0.4s;
+  padding-left: 40px;
+  display: block;
+  height: 500px;
+}
+
+.img1:nth-child(1):hover {
+  z-index: 2;
+  transform: scale(1.1) translateX(20%) !important ;
+  transition: 0.4s;
+}
+.img1:nth-child(2):hover {
+  z-index: 2;
+  transform: scale(1.1) translateX(89%) !important ;
+  transition: 0.4s;
+}
+
+.img1:nth-child(3):hover {
+  z-index: 2;
+  transform: scale(1.1) translateX(221%) !important ;
+  transition: 0.4s;
+}
+.img1:nth-child(4):hover {
+  z-index: 2;
+  transform: scale(1.1) translateX(304%) !important ;
+  transition: 0.4s;
+}
+.img1:nth-child(5):hover {
+  z-index: 2;
+  transform: scale(1.1) translateX(382%) !important ;
+  transition: 0.4s;
+}
+.img1:nth-child(6):hover {
+  z-index: 2;
+  transform: scale(1.1) translateX(493%) !important ;
+  transition: 0.4s;
+}
+
+.card-img-top:hover {
+  z-index: 2;
+  transform: scale(1.1) !important 
+  ;
+  transition: 0.4s;
+}
+
+.shadow {
+  background-image: url("image/Gradient\ Background\ Desktop\ Wallpaper.png") !important;
+  display: flex;
+  width: 75;
+  justify-content: flex-start;
+}
+
+.item {
+  order: 5;
+}
+
+#text3 {
+  margin-bottom: 50px;
+  margin-left: 500px;
+  display: inline-block;
+  color: white;
+  text-align: left;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-size: 30px;
+  font-family: Raleway-ExtraBold_2;
+  background-size: cover;
+}
+
+#text4 {
+  margin-left: 500px;
+  display: inline-block;
+  margin-top: 50px;
+  text-align: left;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-size: 60px;
+  font-family: Raleway-ExtraBold_2;
+  color: white;
+  background-size: cover;
+}
+
+#text5 {
+  margin-top: 200px;
+  margin-left: 500px;
+  display: inline-block;
+
+  text-align: left;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: Raleway-ExtraBold_2;
+
+  background-size: cover;
+  color: white;
+}
+
+#button2 {
+  margin-top: 400px;
+  margin-left: 400px;
+  color: white;
+  margin-bottom: 100px;
+}
+#button2:hover {
+  color: white;
+  margin-top: 700px;
+  margin-left: 20px;
+}
+
+#iç {
+  width: 500px;
+}
+
+#image2 {
+  margin-top: 100px;
+  margin-left: 100px;
+  width: 300px;
+  height: 100px;
+}
+#text8{
+  margin-left: 500px;
+  display: inline-block;
+  
+  text-align: left;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-size: 45px;
+  font-family: Raleway-ExtraBold_2;
+  color: white;
+  background-size: cover;
+}
